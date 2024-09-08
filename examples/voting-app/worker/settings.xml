@@ -9,6 +9,12 @@
       <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
+    <mirror>
+      <id>nexus-aliyun</id>
+      <mirrorOf>central</mirrorOf>
+      <name>Nexus aliyun</name>
+      <url>https://maven.aliyun.com/repository/public/</url>
+    </mirror>
   </mirrors>
 </settings>
 
